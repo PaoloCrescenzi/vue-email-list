@@ -1,0 +1,6 @@
+li{
+  list-style: none;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+  padding: .5rem;
+}
