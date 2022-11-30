@@ -16,6 +16,7 @@
 
   <div id="app">
     <div class="container">
+      <h1>Lista Mail</h1>
       <ul :class="(bonusMail.length != 10) ? 'd-none' : '' " >
         <li v-for="(mail, i) in bonusMail" :key="i">
           {{mail}}
